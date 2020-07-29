@@ -1,8 +1,7 @@
 ## 原型 ##
 [> https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes](http://https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/Object_prototypes "对象原型")
 
-   javaScript常被描述为一种基于原型的语言（prototype-based language）
-   
+   javaScript常被描述为一种基于原型的语言（prototype-based language） 
 
 - 每个对象拥有一个原型对象，对象以其原型为模板，从原型继承方法和属性。
 - 原型对象也可能拥有原型，并从中继承方法和属性，一层一层，以此类推。这种关系常被称为**原型链（prototype chain）**，它解释了为何一个对象会拥有定义在其他对象中的属性和方法。
@@ -12,3 +11,5 @@
 > - 注意：对象的原型可以通过Object.getPrototypeOf(obj)或者_proto_属性获得
 > - 对象的原型是每个实例上都有的属性，构造函数的prototype仅是构造函数的属性
 > - 即： Object.getPrototypeOf(new Foobar())和Foobar.prototype指向着同一个对象。
+> 
+
