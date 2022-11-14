@@ -12,7 +12,7 @@
 
 `git pull`
 
-`git status`                查看本地代码是否有待提交的代码
+`git status`                查看本地代码是否有待提交的代码 
 
 `git add .`
 
